@@ -1,0 +1,43 @@
+logic of even no in an array
+for (i = 0; i < num; i++)
+        {
+            if (array[i] % 2 == 0)
+            {
+	            even++;
+                
+            }
+        }
+logic for odd no.
+ for (i = 0; i < num; i++)
+        {
+            if (array[i] % 2 != 0)
+            {
+	            odd++;
+            }
+        }
+for(i=0;i<num;i++)
+{
+cube[i]=array2[i]*array2[i]*array2[i];
+cout<<cube<<" ";
+}
+
+for(i=0;i<num;i++)
+{
+sqr[i]=array1[i]*array1[i];
+cout<<cube<<" ";
+}
+if(sqr.lenth>cube.lenth)
+{
+limit=sqr.length;
+cube[cube.length-1]=0;
+}else{
+limit=sqr.length;
+sqr[sqr.length-1]=0;
+}
+sum=0;
+for(i=0;i<limit;i++)
+{
+sum+=cube[i]+sqr[i];
+
+}
+cout<<"sum="<<sum;
